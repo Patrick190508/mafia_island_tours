@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <!-- Background -->
+  <rect width="420" height="120" fill="none"/>
+
+  <!-- ── ICON GROUP (left) ── -->
+  <g transform="translate(10, 8)">
+
+    <!-- Sun -->
+    <circle cx="82" cy="22" r="9" fill="#f4a426" opacity="0.95"/>
+    <line x1="82" y1="8"  x2="82" y2="4"  stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="82" y1="36" x2="82" y2="40" stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="68" y1="22" x2="64" y2="22" stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="96" y1="22" x2="100" y2="22" stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="71.8" y1="11.8" x2="69" y2="9"   stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="92.2" y1="32.2" x2="95" y2="35"  stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="92.2" y1="11.8" x2="95" y2="9"   stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+    <line x1="71.8" y1="32.2" x2="69" y2="35"  stroke="#f4a426" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Beach umbrella -->
+    <!-- pole -->
+    <line x1="38" y1="20" x2="50" y2="62" stroke="#8b5e3c" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- canopy arc -->
+    <path d="M14,32 Q38,8 62,32" fill="#0a7c8c" opacity="0.9"/>
+    <path d="M14,32 Q38,14 62,32" fill="none" stroke="#065a66" stroke-width="1.5"/>
+    <!-- canopy stripes -->
+    <path d="M14,32 Q26,14 38,20" fill="#52b788" opacity="0.7"/>
+    <path d="M38,20 Q50,14 62,32" fill="#52b788" opacity="0.4"/>
+
+    <!-- 4×4 jeep (simplified silhouette) -->
+    <!-- body -->
+    <rect x="6" y="64" width="82" height="22" rx="4" fill="#065a66"/>
+    <!-- cab top -->
+    <path d="M22,64 L30,48 L68,48 L76,64 Z" fill="#0a7c8c"/>
+    <!-- windows -->
+    <path d="M33,52 L38,64 L58,64 L63,52 Z" fill="#b8e8ec" opacity="0.7"/>
+    <line x1="48" y1="52" x2="48" y2="64" stroke="#065a66" stroke-width="1.5"/>
+    <!-- front grill lines -->
+    <line x1="6" y1="70" x2="6" y2="82" stroke="#fff" stroke-width="1" opacity="0.3"/>
+    <rect x="4" y="68" width="8" height="4" rx="1" fill="#f4a426" opacity="0.8"/>
+    <!-- rear light -->
+    <rect x="82" y="68" width="6" height="4" rx="1" fill="#e63946" opacity="0.8"/>
+    <!-- wheels -->
+    <circle cx="24" cy="87" r="11" fill="#1a1a1a"/>
+    <circle cx="24" cy="87" r="7"  fill="#333"/>
+    <circle cx="24" cy="87" r="3"  fill="#777"/>
+    <circle cx="68" cy="87" r="11" fill="#1a1a1a"/>
+    <circle cx="68" cy="87" r="7"  fill="#333"/>
+    <circle cx="68" cy="87" r="3"  fill="#777"/>
+    <!-- roof rack hint -->
+    <rect x="30" y="46" width="38" height="3" rx="1" fill="#2d6a4f"/>
+    <line x1="36" y1="46" x2="36" y2="49" stroke="#1a1a1a" stroke-width="1"/>
+    <line x1="48" y1="46" x2="48" y2="49" stroke="#1a1a1a" stroke-width="1"/>
+    <line x1="60" y1="46" x2="60" y2="49" stroke="#1a1a1a" stroke-width="1"/>
+
+    <!-- Ocean waves (bottom) -->
+    <path d="M0,100 Q12,94 24,100 Q36,106 48,100 Q60,94 72,100 Q84,106 96,100" fill="none" stroke="#0a7c8c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4,108 Q16,102 28,108 Q40,114 52,108 Q64,102 76,108 Q88,114 96,108" fill="none" stroke="#52b788" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Fish silhouette (small, subtle) -->
+    <ellipse cx="10" cy="103" rx="5" ry="2.5" fill="#52b788" opacity="0.5"/>
+    <path d="M5,103 L2,100 L2,106 Z" fill="#52b788" opacity="0.5"/>
+
+  </g>
+
+  <!-- ── TEXT GROUP (right of icon) ── -->
+  <g transform="translate(118, 0)">
+    <!-- Main name: two lines -->
+    <text x="0" y="50" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="800" fill="#065a66" letter-spacing="-0.5">Mafia Island</text>
+    <text x="0" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="800" fill="#0a7c8c" letter-spacing="-0.5">Tours</text>
+    <text x="118" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#2d6a4f" letter-spacing="-0.3">&amp; Services</text>
+    <!-- Tagline -->
+    <text x="1" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#5a5a5a" letter-spacing="2" font-weight="500">MAFIA ISLAND · TANZANIA</text>
+    <!-- Divider line under tagline -->
+    <line x1="0" y1="108" x2="280" y2="108" stroke="#0a7c8c" stroke-width="1.5" opacity="0.3"/>
+  </g>
+</svg>
